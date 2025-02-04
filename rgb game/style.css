@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  background-image:url(R.jpeg);
+   background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-family: "Courgette", cursive;
+}
+
+.wrapper {
+  width: max-content;
+  background-color: #e6e6e6;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#couleur {
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.reponses {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  gap: 20px;
+}
+
+.reponse {
+  padding: 20px 40px;
+  background-color: #121212;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reponse:hover {
+  background-color: #5d5d5d;
+}
+
+.score {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+a {
+  font-size: 12px;
+}
+
+
